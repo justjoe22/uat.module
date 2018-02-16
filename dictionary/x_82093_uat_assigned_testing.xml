@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Assigned Testing" max_length="40" name="x_82093_uat_assigned_testing" type="collection"/>
+</database>

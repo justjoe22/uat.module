@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>User Acceptance Testing</name>
+        <order/>
+        <roles>x_82093_uat.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-15 20:00:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18ab883ddb901300603752b0cf9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User Acceptance Testing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_app_application_18ab883ddb901300603752b0cf9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-15 20:00:53</sys_updated_on>
+        <title>User Acceptance Testing</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
