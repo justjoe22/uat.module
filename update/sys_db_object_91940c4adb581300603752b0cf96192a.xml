@@ -11,27 +11,27 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Test Tasks</label>
+        <label>Products</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_82093_uat_assigned_testing</name>
-        <number_ref display_value="UAT">34ab0c3ddb901300603752b0cf961932</number_ref>
+        <name>x_82093_uat_products</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">be37af45dd2003003399d83d70be02cc</super_class>
+        <super_class/>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-15 20:00:53</sys_created_on>
-        <sys_id>14abc83ddb901300603752b0cf9619ca</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Test Tasks</sys_name>
+        <sys_created_on>2018-02-16 14:09:46</sys_created_on>
+        <sys_id>91940c4adb581300603752b0cf96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products</sys_name>
         <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
         <sys_policy/>
         <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
-        <sys_update_name>sys_db_object_14abc83ddb901300603752b0cf9619ca</sys_update_name>
+        <sys_update_name>sys_db_object_91940c4adb581300603752b0cf96192a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-16 14:47:13</sys_updated_on>
+        <sys_updated_on>2018-02-16 14:09:46</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_82093_uat.user" name="x_82093_uat.user">94ab883ddb901300603752b0cf9619c1</user_role>
         <ws_access>true</ws_access>

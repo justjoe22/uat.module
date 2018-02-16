@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Product Tests" max_length="40" name="x_82093_uat_product_tests" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Expected Results" max_length="8000" name="expected_results" type="string"/>
+        <element label="Instructions" max_length="8000" name="instructions" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_82093_uat_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="Test Name" mandatory="true" max_length="250" name="test_name" type="string"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>feedback</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-16 21:21:03</sys_created_on>
+        <sys_id>d987ed0adb1c1300603752b0cf96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feedback</sys_name>
+        <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d987ed0adb1c1300603752b0cf96198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-16 21:21:03</sys_updated_on>
+        <table>x_82093_uat_assigned_testing</table>
+        <ui_policy display_value="Require Feedback">ef476d0adb1c1300603752b0cf96196d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

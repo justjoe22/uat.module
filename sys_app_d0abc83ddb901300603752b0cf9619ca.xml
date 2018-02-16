@@ -7,7 +7,7 @@
         <licensable>true</licensable>
         <license_model>none</license_model>
         <logo/>
-        <menu display_value="User Acceptance Testing">18ab883ddb901300603752b0cf9619be</menu>
+        <menu display_value="User Acceptance Testing (UAT)">18ab883ddb901300603752b0cf9619be</menu>
         <name>uat</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>

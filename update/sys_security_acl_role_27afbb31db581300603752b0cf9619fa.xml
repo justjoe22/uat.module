@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-16 13:47:09</sys_created_on>
+        <sys_id>27afbb31db581300603752b0cf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_82093_uat_product_tests.x_82093_uat.user</sys_name>
+        <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_security_acl display_value="x_82093_uat_product_tests">e7afbb31db581300603752b0cf9619f7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_27afbb31db581300603752b0cf9619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-16 13:47:09</sys_updated_on>
+        <sys_user_role display_value="x_82093_uat.user" name="x_82093_uat.user">94ab883ddb901300603752b0cf9619c1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
