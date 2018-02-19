@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_82093_uat_assigned_testing" version="2" view="product_feedback">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_test.product</element>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="38f97c87dbd01300603752b0cf96193c">fc5ab4c7dbd01300603752b0cf961920</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_id>745ab4c7dbd01300603752b0cf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_test</element>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="38f97c87dbd01300603752b0cf96193c">fc5ab4c7dbd01300603752b0cf961920</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_id>f45ab4c7dbd01300603752b0cf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_test.order</element>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="38f97c87dbd01300603752b0cf96193c">fc5ab4c7dbd01300603752b0cf961920</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_id>785ab4c7dbd01300603752b0cf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="38f97c87dbd01300603752b0cf96193c">fc5ab4c7dbd01300603752b0cf961920</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_id>f85ab4c7dbd01300603752b0cf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>feedback</element>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="38f97c87dbd01300603752b0cf96193c">fc5ab4c7dbd01300603752b0cf961920</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_id>7c5ab4c7dbd01300603752b0cf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_82093_uat_assigned_testing</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-19 20:37:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc5ab4c7dbd01300603752b0cf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_82093_uat_assigned_testing</sys_name>
+            <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+            <sys_update_name>sys_ui_list_x_82093_uat_assigned_testing_product_feedback</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-19 20:37:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Product Feedback" name="product_feedback">38f97c87dbd01300603752b0cf96193c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
