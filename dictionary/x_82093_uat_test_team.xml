@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Team" max_length="40" name="x_82093_uat_test_team" type="collection">
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_82093_uat_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Test User" mandatory="true" max_length="32" name="test_user" reference="sys_user" reference_qual="active=true^roles=itil^EQ" reference_qual_condition="active=true^roles=itil^EQ" type="reference"/>
+        <index name="index">
+            <element name="test_user"/>
+        </index>
+        <index name="index2">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

@@ -28,7 +28,7 @@
         <sys_updated_on>2018-02-15 20:00:53</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_82093_uat.user" name="x_82093_uat.user">94ab883ddb901300603752b0cf9619c1</user_role>
+        <user_role display_value="x_82093_uat.admin" name="x_82093_uat.admin">94ab883ddb901300603752b0cf9619c1</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

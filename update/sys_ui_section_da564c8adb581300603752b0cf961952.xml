@@ -5,83 +5,69 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>d4cf8002db981300603752b0cf961942</sys_id>
+            <sys_created_on>2018-02-21 19:21:30</sys_created_on>
+            <sys_id>4e2c72e3db901300603752b0cf961928</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:21:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>test_name</element>
+            <element>product</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>58cf8002db981300603752b0cf961942</sys_id>
+            <sys_created_on>2018-02-21 19:21:30</sys_created_on>
+            <sys_id>ce2c72e3db901300603752b0cf961928</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>order</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>d8cf8002db981300603752b0cf961942</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:21:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>5ccf8002db981300603752b0cf961942</sys_id>
+            <sys_created_on>2018-02-21 19:21:30</sys_created_on>
+            <sys_id>422c72e3db901300603752b0cf961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:21:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>product</element>
-            <position>4</position>
+            <element>test_name</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>dccf8002db981300603752b0cf961942</sys_id>
+            <sys_created_on>2018-02-21 19:21:30</sys_created_on>
+            <sys_id>c22c72e3db901300603752b0cf961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:21:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>5</position>
+            <element>order</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:57:23</sys_created_on>
-            <sys_id>50cf8002db981300603752b0cf961943</sys_id>
+            <sys_created_on>2018-02-21 19:21:30</sys_created_on>
+            <sys_id>462c72e3db901300603752b0cf961929</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_82093_uat_product_tests" sys_domain="global" view="Default view">da564c8adb581300603752b0cf961952</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:57:23</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:21:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

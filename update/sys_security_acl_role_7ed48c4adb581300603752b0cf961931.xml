@@ -14,7 +14,7 @@
         <sys_update_name>sys_security_acl_role_7ed48c4adb581300603752b0cf961931</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-02-16 14:09:46</sys_updated_on>
-        <sys_user_role display_value="x_82093_uat.user" name="x_82093_uat.user">94ab883ddb901300603752b0cf9619c1</sys_user_role>
+        <sys_user_role display_value="x_82093_uat.admin" name="x_82093_uat.admin">94ab883ddb901300603752b0cf9619c1</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

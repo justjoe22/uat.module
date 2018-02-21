@@ -33,7 +33,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-02-16 13:47:10</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_82093_uat.user" name="x_82093_uat.user">94ab883ddb901300603752b0cf9619c1</user_role>
+        <user_role display_value="x_82093_uat.admin" name="x_82093_uat.admin">94ab883ddb901300603752b0cf9619c1</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
