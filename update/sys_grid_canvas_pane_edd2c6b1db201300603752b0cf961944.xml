@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Incident 28d sum">2dd2c6b1db201300603752b0cf961941</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2014-03-19 08:32:23">2e46c875d7231100b96d45a3ce61031a</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-28 14:57:24</sys_created_on>
+        <sys_id>edd2c6b1db201300603752b0cf961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2dd2c6b1db201300603752b0cf961941</sys_name>
+        <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_edd2c6b1db201300603752b0cf961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-28 14:57:27</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

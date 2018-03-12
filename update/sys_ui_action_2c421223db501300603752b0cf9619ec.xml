@@ -23,7 +23,9 @@
         <name>Generate Tasks for Test Team</name>
         <onclick>genTests()</onclick>
         <order>1000</order>
-        <script><![CDATA[function genTests(){
+        <script><![CDATA[// Action Name: Generate Tasks for Test Team
+
+function genTests(){
 	var answer=confirm("This will generate and assign tasks to each team member for this product. Are you sure you would like to proceed?");
 	if (answer==true)
 		{
@@ -71,7 +73,7 @@ if(typeof window == 'undefined')
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2c421223db501300603752b0cf9619ec</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Generate Tasks for Test Team</sys_name>
         <sys_overrides/>
         <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
@@ -79,7 +81,7 @@ if(typeof window == 'undefined')
         <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
         <sys_update_name>sys_ui_action_2c421223db501300603752b0cf9619ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-21 19:54:03</sys_updated_on>
+        <sys_updated_on>2018-03-06 19:30:20</sys_updated_on>
         <table>x_82093_uat_product_tests</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

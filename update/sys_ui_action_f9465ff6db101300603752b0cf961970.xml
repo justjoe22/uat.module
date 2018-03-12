@@ -23,7 +23,9 @@
         <name>Restart Test</name>
         <onclick>restartCurrentTest()</onclick>
         <order>100</order>
-        <script><![CDATA[function restartCurrentTest(){
+        <script><![CDATA[// Action Name: Restart Test
+
+function restartCurrentTest(){
 	var answer=confirm("Are you sure you want to restart this test?");
 	if (answer==true)
 		{
@@ -56,7 +58,7 @@ if(typeof window == 'undefined')
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9465ff6db101300603752b0cf961970</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Restart Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
@@ -64,7 +66,7 @@ if(typeof window == 'undefined')
         <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
         <sys_update_name>sys_ui_action_f9465ff6db101300603752b0cf961970</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-20 12:56:25</sys_updated_on>
+        <sys_updated_on>2018-03-06 19:29:20</sys_updated_on>
         <table>x_82093_uat_assigned_testing</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

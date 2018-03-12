@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Test Tasks" max_length="40" name="x_82093_uat_assigned_testing" sizeclass="14" type="collection">
+    <element audit="true" extends="task" label="Test Tasks" max_length="40" name="x_82093_uat_assigned_testing" sizeclass="26" type="collection">
         <element label="Assigned Test" max_length="32" name="assigned_test" reference="x_82093_uat_product_tests" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Feedback" max_length="8000" name="feedback" type="string"/>
     </element>
