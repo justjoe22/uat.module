@@ -79,9 +79,9 @@ if(typeof window == 'undefined')
         <sys_mod_count>14</sys_mod_count>
         <sys_name>Close Product Test</sys_name>
         <sys_overrides/>
-        <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
         <sys_policy/>
-        <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
         <sys_update_name>sys_ui_action_a4f7fbf6db501300603752b0cf9619ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-03-06 19:31:48</sys_updated_on>

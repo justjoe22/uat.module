@@ -8,13 +8,13 @@
         <license_model>none</license_model>
         <logo/>
         <menu display_value="User Acceptance Testing (UAT)">18ab883ddb901300603752b0cf9619be</menu>
-        <name>uat</name>
+        <name>User Acceptance Testing (UAT)</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_82093_uat</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description/>
+        <short_description>UAT Users</short_description>
         <source>x_82093_uat</source>
         <store_correlation_id/>
         <store_url/>
@@ -23,12 +23,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-15 20:00:53</sys_created_on>
         <sys_id>d0abc83ddb901300603752b0cf9619ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-15 20:00:53</sys_updated_on>
+        <sys_updated_on>2018-03-12 18:23:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_82093_uat.admin" name="x_82093_uat.admin">94ab883ddb901300603752b0cf9619c1</user_role>
+        <user_role display_value="x_82093_uat.user" name="x_82093_uat.user">48918d4bdbd01300603752b0cf9619f5</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

@@ -15,9 +15,9 @@
             <sys_id>41d3444adb581300603752b0cf961959</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Instructions</sys_name>
-            <sys_package display_value="uat" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+            <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
             <sys_policy/>
-            <sys_scope display_value="uat">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+            <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
             <sys_update_name>sys_documentation_x_82093_uat_product_tests_instructions_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-02-16 14:05:17</sys_updated_on>
