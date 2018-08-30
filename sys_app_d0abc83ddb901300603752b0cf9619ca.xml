@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_app">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
         <menu display_value="User Acceptance Testing (UAT)">18ab883ddb901300603752b0cf9619be</menu>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-15 20:00:53</sys_created_on>
         <sys_id>d0abc83ddb901300603752b0cf9619ca</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-12 18:23:01</sys_updated_on>
+        <sys_updated_on>2018-08-30 14:15:24</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_82093_uat.user" name="x_82093_uat.user">48918d4bdbd01300603752b0cf9619f5</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.5.0</version>
     </sys_app>
 </record_update>

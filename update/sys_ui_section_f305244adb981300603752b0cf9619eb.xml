@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Test Notes" section_id="f305244adb981300603752b0cf9619eb" sys_domain="global" table="x_82093_uat_assigned_testing" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>

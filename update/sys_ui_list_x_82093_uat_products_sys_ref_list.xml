@@ -1,35 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_82093_uat_products" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>product_name</element>
-            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">fc0f84cedb581300603752b0cf961973</list_id>
+            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">997ff4bcdb106300603752b0cf961992</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:54:08</sys_created_on>
-            <sys_id>740f84cedb581300603752b0cf961974</sys_id>
+            <sys_created_on>2018-08-30 17:24:32</sys_created_on>
+            <sys_id>517ff4bcdb106300603752b0cf961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:54:08</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:24:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>product_owner</element>
-            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">fc0f84cedb581300603752b0cf961973</list_id>
+            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">997ff4bcdb106300603752b0cf961992</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:54:08</sys_created_on>
-            <sys_id>f40f84cedb581300603752b0cf961974</sys_id>
+            <sys_created_on>2018-08-30 17:24:32</sys_created_on>
+            <sys_id>d17ff4bcdb106300603752b0cf961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:54:08</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:24:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instance.name</element>
+            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">997ff4bcdb106300603752b0cf961992</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-30 17:24:32</sys_created_on>
+            <sys_id>557ff4bcdb106300603752b0cf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-30 17:24:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>instance.version</element>
+            <list_id display_value="x_82093_uat_products" element="NULL" name="x_82093_uat_products" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">997ff4bcdb106300603752b0cf961992</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-30 17:24:32</sys_created_on>
+            <sys_id>d57ff4bcdb106300603752b0cf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-30 17:24:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -43,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-16 14:54:08</sys_created_on>
+            <sys_created_on>2018-08-30 17:24:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fc0f84cedb581300603752b0cf961973</sys_id>
+            <sys_id>997ff4bcdb106300603752b0cf961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_82093_uat_products</sys_name>
             <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
@@ -54,7 +83,7 @@
             <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
             <sys_update_name>sys_ui_list_x_82093_uat_products_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-16 14:54:08</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:24:32</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">5c962341dd2003003399d83d70be026c</view>
             <view_name/>

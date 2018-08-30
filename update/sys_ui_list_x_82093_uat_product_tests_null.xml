@@ -1,65 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_82093_uat_product_tests" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8e6fe443dbd01300603752b0cf9619b2</list_id>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-19 19:49:35</sys_created_on>
-            <sys_id>066fe443dbd01300603752b0cf9619b3</sys_id>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>90df3cbcdb106300603752b0cf96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-19 19:49:35</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>test_name</element>
-            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8e6fe443dbd01300603752b0cf9619b2</list_id>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-19 19:49:35</sys_created_on>
-            <sys_id>866fe443dbd01300603752b0cf9619b3</sys_id>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>14df3cbcdb106300603752b0cf96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-19 19:49:35</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>product</element>
-            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8e6fe443dbd01300603752b0cf9619b2</list_id>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-19 19:49:35</sys_created_on>
-            <sys_id>0a6fe443dbd01300603752b0cf9619b3</sys_id>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>94df3cbcdb106300603752b0cf96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-19 19:49:35</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>order</element>
-            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8e6fe443dbd01300603752b0cf9619b2</list_id>
+            <element>product.instance.name</element>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-19 19:49:35</sys_created_on>
-            <sys_id>8a6fe443dbd01300603752b0cf9619b3</sys_id>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>18df3cbcdb106300603752b0cf96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-19 19:49:35</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>product.instance.version</element>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>98df3cbcdb106300603752b0cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="x_82093_uat_product_tests" element="NULL" name="x_82093_uat_product_tests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d8df3cbcdb106300603752b0cf96196a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
+            <sys_id>1cdf3cbcdb106300603752b0cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -73,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-19 19:49:35</sys_created_on>
+            <sys_created_on>2018-08-30 17:26:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e6fe443dbd01300603752b0cf9619b2</sys_id>
+            <sys_id>d8df3cbcdb106300603752b0cf96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_82093_uat_product_tests</sys_name>
             <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
@@ -84,7 +113,7 @@
             <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
             <sys_update_name>sys_ui_list_x_82093_uat_product_tests_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-19 19:49:35</sys_updated_on>
+            <sys_updated_on>2018-08-30 17:26:07</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Instance" max_length="40" name="x_82093_uat_instance" type="collection">
+        <element label="Instance URL" mandatory="true" max_length="1024" name="instance_url" type="url"/>
+        <element display="true" label="Name" mandatory="true" max_length="120" name="name" type="string"/>
+        <element label="Version" mandatory="true" max_length="120" name="version" type="string"/>
+    </element>
+</database>

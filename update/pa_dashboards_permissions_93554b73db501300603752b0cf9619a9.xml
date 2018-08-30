@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="pa_dashboards_permissions">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="Usage by Requestor">aaed481d9f902200ef4afa7dc67fcf50</dashboard>
         <delete>false</delete>

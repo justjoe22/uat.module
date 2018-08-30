@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="pa_dashboards_permissions">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="Incident daily - 7d - 28d">0b86ee52d7031100b96d45a3ce61034b</dashboard>
         <delete>true</delete>

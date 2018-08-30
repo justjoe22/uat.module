@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="instructions" label="Instructions" language="en" table="x_82093_uat_product_tests">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>instructions</element>

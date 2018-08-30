@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Products" max_length="40" name="x_82093_uat_products" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Instance" max_length="32" name="instance" reference="x_82093_uat_instance" type="reference"/>
         <element display="true" label="Product Name" mandatory="true" max_length="250" name="product_name" type="string"/>
         <element label="Product Owner" mandatory="true" max_length="32" name="product_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <index name="index">
+            <element name="instance"/>
+        </index>
+        <index name="index2">
             <element name="product_owner"/>
         </index>
     </element>
