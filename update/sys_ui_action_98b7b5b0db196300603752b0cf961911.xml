@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>assign_team</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments/>
+        <condition>RP.isRelatedList();</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <name>Assign Team</name>
+        <onclick>showDialog()</onclick>
+        <order>200</order>
+        <script><![CDATA[function showDialog(){
+	//Initialize and open the dialog
+	var dialog = new GlideDialogWindow('x_82093_uat_Assign_Team_for_Product'); //Render the dialog containing the UI Page 'terms_and_conditions_dialog'
+	dialog.setTitle('Assign a Product Team'); //Set the dialog title
+	dialog.setSize(600,600); //Set the dialog size
+	dialog.removeCloseDecoration(); //Remove the dialog close icon
+	//dialog.setPreference('cancel_url', 'sp?sysparm_stack=no'); //Set optional cancel redirect URL
+	dialog.render(); //Open the dialog
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 14:36:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98b7b5b0db196300603752b0cf961911</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Assign Team</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_ui_action_98b7b5b0db196300603752b0cf961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 17:24:33</sys_updated_on>
+        <table>x_82093_uat_test_team</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

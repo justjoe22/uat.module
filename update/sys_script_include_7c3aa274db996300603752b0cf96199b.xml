@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_82093_uat.AssignTeamToProduct</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AssignTeamToProduct</name>
+        <script><![CDATA[var AssignTeamToProduct = Class.create();
+AssignTeamToProduct.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	addUserFromGroup: function() {
+		var groupId = this.getParameter('sysparm_groupid');
+		var productId = this.getParameter('sysparm_productid');
+		
+		var getGroup = new GlideRecord('x_82093_uat_team_members');
+		getGroup.addQuery('group',groupId);
+		getGroup.query();
+		
+		while(getGroup.next()){
+			var addTeam = new GlideRecord('x_82093_uat_test_team');
+			addTeam.addQuery('test_user',getGroup.member);
+			addTeam.addQuery('product',productId);
+			addTeam.query();
+			
+			if(!addTeam.next()){
+				addTeam.initialize();
+				addTeam.test_user = getGroup.member;
+				addTeam.product = productId;
+				addTeam.insert();
+			}
+			
+		}
+		
+	},
+	
+	type: 'AssignTeamToProduct'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 18:28:28</sys_created_on>
+        <sys_id>7c3aa274db996300603752b0cf96199b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AssignTeamToProduct</sys_name>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_script_include_7c3aa274db996300603752b0cf96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 18:53:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

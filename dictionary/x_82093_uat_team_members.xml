@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Team Members" max_length="40" name="x_82093_uat_team_members" type="collection">
+        <element label="Group" max_length="32" name="group" reference="x_82093_uat_team_groups" type="reference"/>
+        <element label="Member" max_length="32" name="member" reference="sys_user" reference_qual="active=true^roles=itil^EQ" reference_qual_condition="active=true^roles=itil^EQ" type="reference"/>
+        <index name="index">
+            <element name="member"/>
+        </index>
+        <index name="index2">
+            <element name="group"/>
+        </index>
+    </element>
+</database>

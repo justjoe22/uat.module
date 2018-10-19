@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function termsOK(){
+	
+	//Gets called if the 'OK' dialog button is clicked
+	//Make sure terms have been accepted
+	var groups = gel('groups').value;
+	var productId = g_form.getUniqueValue();
+	
+	if(groups){
+		
+		var ga = new GlideAjax('AssignTeamToProduct');
+		ga.addParam('sysparm_name', 'addUserFromGroup');
+		ga.addParam('sysparm_groupid', groups);
+		ga.addParam('sysparm_productid', productId);
+		ga.getXML(getAnswer);
+			
+		g_form.save();
+		//GlideDialogWindow.get().destroy(); //Close the dialog window
+	}
+	else {
+		alert("Please select a group.");
+	}
+	
+}
+
+function getAnswer(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+}
+
+function termsCancel(){
+	
+	GlideDialogWindow.get().destroy(); //Close the dialog window
+	
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_82093_uat_Assign_Team_for_Product.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:ui_form>
+   <!-- Get values from dialog preferences passed in -->
+   <g:evaluate var="jvar_cancel_url"
+     expression= "RP.getWindowProperties().get('cancel_url')" />
+   <input type="hidden" id="cancel_url" value="${jvar_cancel_url}" />
+   <table width="100%">
+     <tr>
+       <td>
+          <g:ui_reference name="groups" table="x_82093_uat_team_groups" field="name"/>
+       </td>
+     </tr>     
+     <tr>
+       <td colspan="2" height="20px">
+		   
+       </td>
+     </tr>
+     <tr id="dialog_buttons">
+        <td colspan="2" align="right">
+           <!-- Pull in 'dialog_buttons_ok_cancel' UI Macro for submit/cancel buttons -->
+           <g:dialog_buttons_ok_cancel ok="return termsOK()" cancel="termsCancel()" ok_type="button" cancel_type="button"/>
+        </td>
+     </tr>
+  </table>
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>Assign_Team_for_Product</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 15:43:07</sys_created_on>
+        <sys_id>62e68a3cdb196300603752b0cf961923</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Assign_Team_for_Product</sys_name>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_ui_page_62e68a3cdb196300603752b0cf961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 18:59:24</sys_updated_on>
+    </sys_ui_page>
+</record_update>
