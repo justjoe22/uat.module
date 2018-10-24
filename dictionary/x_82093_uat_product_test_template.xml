@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product Test Template" max_length="40" name="x_82093_uat_product_test_template" type="collection">
+        <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element label="Expected Results" mandatory="true" max_length="4000" name="expected_results" type="string"/>
+        <element label="Instructions" mandatory="true" max_length="4000" name="instructions" type="string"/>
+        <element label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
+        <element label="Product" max_length="32" name="product" reference="x_82093_uat_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="Test Name" mandatory="true" max_length="250" name="test_name" type="string"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

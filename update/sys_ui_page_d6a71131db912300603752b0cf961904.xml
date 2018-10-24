@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function termsOK(){
+	
+	//Gets called if the 'OK' dialog button is clicked
+	//Make sure terms have been accepted
+	var templates = gel('templates').value;
+	
+	if(templates){
+		
+		var myTemplate = new GlideRecord('x_82093_uat_product_test_template');
+		myTemplate.get(templates);
+		
+		g_form.setValue('product', myTemplate.product);
+		g_form.setValue('test_name', myTemplate.test_name);
+		g_form.setValue('description', myTemplate.description);
+		g_form.setValue('instructions', myTemplate.instructions);
+		g_form.setValue('expected_results', myTemplate.expected_results);
+		g_form.setValue('order', myTemplate.order);
+		
+		GlideDialogWindow.get().destroy();
+	}
+	else {
+		alert("Please select a template.");		
+	}
+	
+}
+
+function termsCancel(){
+		
+	GlideDialogWindow.get().destroy(); //Close the dialog window
+	
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_82093_uat_TemplatePicker.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<j:set var="jvar_filter" value="${sysparm_filter}"/>
+	
+<g:ui_form>
+   <!-- Get values from dialog preferences passed in -->  		
+   <g:evaluate var="jvar_cancel_url"
+     expression= "RP.getWindowProperties().get('cancel_url')" />
+   <input type="hidden" id="cancel_url" value="${jvar_cancel_url}" />	
+   <table width="100%">
+     <tr>
+       <td>  
+          <g:ui_reference name="templates" table="x_82093_uat_product_test_template" query="${jvar_filter}" field="test_name"/>
+       </td>
+     </tr>     
+     <tr>
+       <td colspan="2" height="20px">
+		   
+       </td>
+     </tr>
+     <tr id="dialog_buttons">
+        <td colspan="2" align="right">
+           <!-- Pull in 'dialog_buttons_ok_cancel' UI Macro for submit/cancel buttons -->
+           <g:dialog_buttons_ok_cancel ok="return termsOK()" cancel="termsCancel()" ok_type="button" cancel_type="button"/>
+        </td>
+     </tr>
+  </table>
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>TemplatePicker</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-22 14:49:25</sys_created_on>
+        <sys_id>d6a71131db912300603752b0cf961904</sys_id>
+        <sys_mod_count>67</sys_mod_count>
+        <sys_name>TemplatePicker</sys_name>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_ui_page_d6a71131db912300603752b0cf961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-24 15:35:12</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="description" label="Description" language="en" table="x_82093_uat_product_test_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <help/>
+            <hint/>
+            <label>Description</label>
+            <language>en</language>
+            <name>x_82093_uat_product_test_template</name>
+            <plural>Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-22 12:38:54</sys_created_on>
+            <sys_id>ca5a78f5db112300603752b0cf961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Description</sys_name>
+            <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+            <sys_update_name>sys_documentation_x_82093_uat_product_test_template_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-22 12:38:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

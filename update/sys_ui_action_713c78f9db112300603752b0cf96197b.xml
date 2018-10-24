@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create a Product Test Template</name>
+        <onclick/>
+        <order>-150</order>
+        <script><![CDATA[var Template = new GlideRecord('x_82093_uat_product_test_template');
+Template.addQuery('test_name',current.test_name);
+Template.addQuery('product',current.product);
+Template.query();
+
+if(Template.next()){
+	gs.addErrorMessage('A template with the name, "'+Template.test_name+'" already exist.');
+}
+else {
+	Template.initialize();
+	Template.test_name = current.test_name;
+	Template.product = current.product;
+	Template.description = current.description;
+	Template.instructions = current.instructions;
+	Template.expected_results = current.expected_results;
+	Template.order = current.order;
+	Template.insert();
+	
+	gs.addInfoMessage('Created a new test template.');
+}
+
+action.setRedirectURL(current);
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-22 12:48:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>713c78f9db112300603752b0cf96197b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create a Product Test Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_ui_action_713c78f9db112300603752b0cf96197b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-22 14:28:28</sys_updated_on>
+        <table>x_82093_uat_product_tests</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
