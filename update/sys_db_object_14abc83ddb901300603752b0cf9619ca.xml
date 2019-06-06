@@ -16,7 +16,7 @@
         <number_ref display_value="UAT">34ab0c3ddb901300603752b0cf961932</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">be37af45dd2003003399d83d70be02cc</super_class>
+        <super_class display_value="Task" name="task">346e5e77db2223001c0aa455ca9619e9</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

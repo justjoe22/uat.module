@@ -22,8 +22,6 @@
         <query/>
         <report/>
         <roles>x_82093_uat.user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-19 12:39:55</sys_created_on>

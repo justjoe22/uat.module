@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_test</element>
-            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="04373847dbd01300603752b0cf9619e8">7cfcbc0bdbd01300603752b0cf96194a</list_id>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c83f4901db3623001c0aa455ca9619fc">7cfcbc0bdbd01300603752b0cf96194a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="04373847dbd01300603752b0cf9619e8">7cfcbc0bdbd01300603752b0cf96194a</list_id>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c83f4901db3623001c0aa455ca9619fc">7cfcbc0bdbd01300603752b0cf96194a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="04373847dbd01300603752b0cf9619e8">7cfcbc0bdbd01300603752b0cf96194a</list_id>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c83f4901db3623001c0aa455ca9619fc">7cfcbc0bdbd01300603752b0cf96194a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>feedback</element>
-            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="04373847dbd01300603752b0cf9619e8">7cfcbc0bdbd01300603752b0cf96194a</list_id>
+            <list_id display_value="x_82093_uat_assigned_testing" element="NULL" name="x_82093_uat_assigned_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c83f4901db3623001c0aa455ca9619fc">7cfcbc0bdbd01300603752b0cf96194a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -85,7 +85,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-02-19 20:48:46</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptcc373847dbd01300603752b0cf9619e3" name="RPTcc373847dbd01300603752b0cf9619e3">04373847dbd01300603752b0cf9619e8</view>
+            <view display_value="Rptcc373847dbd01300603752b0cf9619e3" name="RPTcc373847dbd01300603752b0cf9619e3">c83f4901db3623001c0aa455ca9619fc</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
