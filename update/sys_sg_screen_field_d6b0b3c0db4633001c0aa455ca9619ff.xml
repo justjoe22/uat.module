@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>assigned_test.expected_results</data_item_field_name>
+        <hidden>false</hidden>
+        <order>40</order>
+        <screen display_value="Details">4b3e668cdb4233001c0aa455ca961968</screen>
+        <screen_data_item_table>x_82093_uat_assigned_testing</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 18:24:37</sys_created_on>
+        <sys_id>d6b0b3c0db4633001c0aa455ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_test.expected_results</sys_name>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_sg_screen_field_d6b0b3c0db4633001c0aa455ca9619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 18:24:37</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

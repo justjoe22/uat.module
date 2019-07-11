@@ -7,6 +7,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="100" label="Order" max_length="40" name="order" type="integer"/>
         <element label="Product" mandatory="true" max_length="32" name="product" reference="x_82093_uat_products" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Related Tasks" max_length="4000" name="related_tasks" reference="task" type="glide_list"/>
         <element label="Tests Generated" max_length="40" name="tests_generated" type="boolean"/>
         <element display="true" label="Test Name" mandatory="true" max_length="250" name="test_name" type="string"/>
         <index name="index">

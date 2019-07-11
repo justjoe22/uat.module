@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <item_view display_value="User Acceptance Testing item view">f23e228cdb4233001c0aa455ca961949</item_view>
+        <name>Master Item</name>
+        <screen display_value="My Test Tasks">be3e668cdb4233001c0aa455ca961958</screen>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 13:34:07</sys_created_on>
+        <sys_id>033e668cdb4233001c0aa455ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Item</sys_name>
+        <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
+        <sys_update_name>sys_sg_master_item_033e668cdb4233001c0aa455ca9619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 13:34:07</sys_updated_on>
+        <table>x_82093_uat_assigned_testing</table>
+    </sys_sg_master_item>
+</record_update>

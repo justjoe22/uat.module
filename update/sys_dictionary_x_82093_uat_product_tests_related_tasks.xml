@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_82093_uat_assigned_testing">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="related_tasks" table="x_82093_uat_product_tests">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
-        <audit>true</audit>
+        <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Related Tasks</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,41 +27,41 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>related_tasks</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">glide_list</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_82093_uat_assigned_testing</name>
+        <max_length>4000</max_length>
+        <name>x_82093_uat_product_tests</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="Task" name="task">task</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>1</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-15 20:00:54</sys_created_on>
-        <sys_id>e82fc101db3623001c0aa455ca96198e</sys_id>
+        <sys_created_on>2019-07-10 18:01:00</sys_created_on>
+        <sys_id>553a4e3ddb2633001c0aa455ca9619ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_82093_uat_assigned_testing</sys_name>
+        <sys_name>Related Tasks</sys_name>
         <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
         <sys_policy/>
         <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
-        <sys_update_name>sys_dictionary_x_82093_uat_assigned_testing_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-02 19:48:33</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_82093_uat_product_tests_related_tasks</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 18:01:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
