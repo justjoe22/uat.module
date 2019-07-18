@@ -44,8 +44,9 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>sys_class_name=rm_story</reference_qual>
+        <reference_qual_condition table="task">sys_class_name=rm_story<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="rm_story"/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -54,14 +55,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-10 18:01:00</sys_created_on>
         <sys_id>553a4e3ddb2633001c0aa455ca9619ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Related Tasks</sys_name>
         <sys_package display_value="User Acceptance Testing (UAT)" source="x_82093_uat">d0abc83ddb901300603752b0cf9619ca</sys_package>
         <sys_policy/>
         <sys_scope display_value="User Acceptance Testing (UAT)">d0abc83ddb901300603752b0cf9619ca</sys_scope>
         <sys_update_name>sys_dictionary_x_82093_uat_product_tests_related_tasks</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-10 18:01:00</sys_updated_on>
+        <sys_updated_on>2019-07-18 11:55:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
