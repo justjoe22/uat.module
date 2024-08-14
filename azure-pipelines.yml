@@ -25,7 +25,7 @@ steps:
             "name": "Change Management"
           },
           "cmdb_ci": {
-            "name": "DevOps Demo Application"
+            "name": "DevOps Demo Application - UAT Module"
           },
           "priority": "2",
           "comments": "This is a sample pipeline script to be added in your change step",
